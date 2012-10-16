@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE21A20162D69E900A8DE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE21A1F162D69E900A8DE38 /* UIKit.framework */; };
+		AAE21A22162D69E900A8DE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE21A21162D69E900A8DE38 /* Foundation.framework */; };
+		AAE21A24162D69E900A8DE38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE21A23162D69E900A8DE38 /* CoreGraphics.framework */; };
+		AAE21A26162D69E900A8DE38 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE21A25162D69E900A8DE38 /* CoreData.framework */; };
+		AAE21A2C162D69E900A8DE38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A2A162D69E900A8DE38 /* InfoPlist.strings */; };
+		AAE21A2E162D69E900A8DE38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE21A2D162D69E900A8DE38 /* main.m */; };
+		AAE21A32162D69E900A8DE38 /* tictactoeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE21A31162D69E900A8DE38 /* tictactoeAppDelegate.m */; };
+		AAE21A34162D69E900A8DE38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A33162D69E900A8DE38 /* Default.png */; };
+		AAE21A36162D69E900A8DE38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A35162D69E900A8DE38 /* Default@2x.png */; };
+		AAE21A38162D69E900A8DE38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A37162D69E900A8DE38 /* Default-568h@2x.png */; };
+		AAE21A3B162D69E900A8DE38 /* tictactoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE21A39162D69E900A8DE38 /* tictactoe.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAE21A1B162D69E900A8DE38 /* tictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictactoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE21A1F162D69E900A8DE38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAE21A21162D69E900A8DE38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAE21A23162D69E900A8DE38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAE21A25162D69E900A8DE38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AAE21A29162D69E900A8DE38 /* tictactoe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tictactoe-Info.plist"; sourceTree = "<group>"; };
+		AAE21A2B162D69E900A8DE38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAE21A2D162D69E900A8DE38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE21A2F162D69E900A8DE38 /* tictactoe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tictactoe-Prefix.pch"; sourceTree = "<group>"; };
+		AAE21A30162D69E900A8DE38 /* tictactoeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tictactoeAppDelegate.h; sourceTree = "<group>"; };
+		AAE21A31162D69E900A8DE38 /* tictactoeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tictactoeAppDelegate.m; sourceTree = "<group>"; };
+		AAE21A33162D69E900A8DE38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AAE21A35162D69E900A8DE38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AAE21A37162D69E900A8DE38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAE21A3A162D69E900A8DE38 /* tictactoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tictactoe.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE21A18162D69E900A8DE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE21A20162D69E900A8DE38 /* UIKit.framework in Frameworks */,
+				AAE21A22162D69E900A8DE38 /* Foundation.framework in Frameworks */,
+				AAE21A24162D69E900A8DE38 /* CoreGraphics.framework in Frameworks */,
+				AAE21A26162D69E900A8DE38 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE21A10162D69E900A8DE38 = {
+			isa = PBXGroup;
+			children = (
+				AAE21A27162D69E900A8DE38 /* tictactoe */,
+				AAE21A1E162D69E900A8DE38 /* Frameworks */,
+				AAE21A1C162D69E900A8DE38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE21A1C162D69E900A8DE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A1B162D69E900A8DE38 /* tictactoe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE21A1E162D69E900A8DE38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A1F162D69E900A8DE38 /* UIKit.framework */,
+				AAE21A21162D69E900A8DE38 /* Foundation.framework */,
+				AAE21A23162D69E900A8DE38 /* CoreGraphics.framework */,
+				AAE21A25162D69E900A8DE38 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAE21A27162D69E900A8DE38 /* tictactoe */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A30162D69E900A8DE38 /* tictactoeAppDelegate.h */,
+				AAE21A31162D69E900A8DE38 /* tictactoeAppDelegate.m */,
+				AAE21A39162D69E900A8DE38 /* tictactoe.xcdatamodeld */,
+				AAE21A28162D69E900A8DE38 /* Supporting Files */,
+			);
+			path = tictactoe;
+			sourceTree = "<group>";
+		};
+		AAE21A28162D69E900A8DE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A29162D69E900A8DE38 /* tictactoe-Info.plist */,
+				AAE21A2A162D69E900A8DE38 /* InfoPlist.strings */,
+				AAE21A2D162D69E900A8DE38 /* main.m */,
+				AAE21A2F162D69E900A8DE38 /* tictactoe-Prefix.pch */,
+				AAE21A33162D69E900A8DE38 /* Default.png */,
+				AAE21A35162D69E900A8DE38 /* Default@2x.png */,
+				AAE21A37162D69E900A8DE38 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE21A1A162D69E900A8DE38 /* tictactoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE21A3E162D69E900A8DE38 /* Build configuration list for PBXNativeTarget "tictactoe" */;
+			buildPhases = (
+				AAE21A17162D69E900A8DE38 /* Sources */,
+				AAE21A18162D69E900A8DE38 /* Frameworks */,
+				AAE21A19162D69E900A8DE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tictactoe;
+			productName = tictactoe;
+			productReference = AAE21A1B162D69E900A8DE38 /* tictactoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE21A12162D69E900A8DE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tictactoe;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Peter IJlst";
+			};
+			buildConfigurationList = AAE21A15162D69E900A8DE38 /* Build configuration list for PBXProject "tictactoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAE21A10162D69E900A8DE38;
+			productRefGroup = AAE21A1C162D69E900A8DE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE21A1A162D69E900A8DE38 /* tictactoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE21A19162D69E900A8DE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE21A2C162D69E900A8DE38 /* InfoPlist.strings in Resources */,
+				AAE21A34162D69E900A8DE38 /* Default.png in Resources */,
+				AAE21A36162D69E900A8DE38 /* Default@2x.png in Resources */,
+				AAE21A38162D69E900A8DE38 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE21A17162D69E900A8DE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE21A2E162D69E900A8DE38 /* main.m in Sources */,
+				AAE21A32162D69E900A8DE38 /* tictactoeAppDelegate.m in Sources */,
+				AAE21A3B162D69E900A8DE38 /* tictactoe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAE21A2A162D69E900A8DE38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE21A2B162D69E900A8DE38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE21A3C162D69E900A8DE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE21A3D162D69E900A8DE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE21A3F162D69E900A8DE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tictactoe/tictactoe-Prefix.pch";
+				INFOPLIST_FILE = "tictactoe/tictactoe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAE21A40162D69E900A8DE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tictactoe/tictactoe-Prefix.pch";
+				INFOPLIST_FILE = "tictactoe/tictactoe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE21A15162D69E900A8DE38 /* Build configuration list for PBXProject "tictactoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE21A3C162D69E900A8DE38 /* Debug */,
+				AAE21A3D162D69E900A8DE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE21A3E162D69E900A8DE38 /* Build configuration list for PBXNativeTarget "tictactoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE21A3F162D69E900A8DE38 /* Debug */,
+				AAE21A40162D69E900A8DE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAE21A39162D69E900A8DE38 /* tictactoe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAE21A3A162D69E900A8DE38 /* tictactoe.xcdatamodel */,
+			);
+			currentVersion = AAE21A3A162D69E900A8DE38 /* tictactoe.xcdatamodel */;
+			path = tictactoe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAE21A12162D69E900A8DE38 /* Project object */;
+}
