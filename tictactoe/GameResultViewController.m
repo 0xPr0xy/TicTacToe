@@ -31,7 +31,6 @@
     self.playerTwoName.text = [[[GameController shared] player2] name];
     self.playerOneScore.text = [NSString stringWithFormat:@"%i",[[[GameController shared] player1] gamesWon]];
     self.playerTwoScore.text = [NSString stringWithFormat:@"%i",[[[GameController shared] player2] gamesWon]];
-
 }
 
 - (void)didReceiveMemoryWarning

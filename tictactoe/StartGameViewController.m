@@ -39,6 +39,8 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    self.player1Name.text = nil;
+    self.player2Name.text = nil;
 }
 
 - (void)viewDidUnload {

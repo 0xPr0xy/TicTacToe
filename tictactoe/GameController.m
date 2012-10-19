@@ -27,7 +27,7 @@ static GameController *sharedGameController = nil;
     return sharedGameController;
 }
 
-
+#pragma mark addPlayer
 - (void)addPlayer:(int)num withName:(NSString*)name withGamesWon:(int)gamesWon{
     if(num==1){
         player1 = [[Player alloc] init];
