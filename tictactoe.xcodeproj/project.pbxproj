@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA19179B16307C040078E471 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19179A16307C040078E471 /* Player.m */; };
 		AAE21A20162D69E900A8DE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE21A1F162D69E900A8DE38 /* UIKit.framework */; };
 		AAE21A22162D69E900A8DE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE21A21162D69E900A8DE38 /* Foundation.framework */; };
 		AAE21A24162D69E900A8DE38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE21A23162D69E900A8DE38 /* CoreGraphics.framework */; };
@@ -18,9 +19,25 @@
 		AAE21A36162D69E900A8DE38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A35162D69E900A8DE38 /* Default@2x.png */; };
 		AAE21A38162D69E900A8DE38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A37162D69E900A8DE38 /* Default-568h@2x.png */; };
 		AAE21A3B162D69E900A8DE38 /* tictactoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE21A39162D69E900A8DE38 /* tictactoe.xcdatamodeld */; };
+		AAE21A4A162D6CA700A8DE38 /* StartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE21A48162D6CA700A8DE38 /* StartGameViewController.m */; };
+		AAE21A4B162D6CA700A8DE38 /* StartGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A49162D6CA700A8DE38 /* StartGameViewController.xib */; };
+		AAE21A51162D6EA100A8DE38 /* GamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE21A4F162D6EA100A8DE38 /* GamePlayViewController.m */; };
+		AAE21A52162D6EA100A8DE38 /* GamePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A50162D6EA100A8DE38 /* GamePlayViewController.xib */; };
+		AAE21A56162D6EAC00A8DE38 /* GameResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE21A54162D6EAC00A8DE38 /* GameResultViewController.m */; };
+		AAE21A57162D6EAC00A8DE38 /* GameResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A55162D6EAC00A8DE38 /* GameResultViewController.xib */; };
+		AAE21A59162D79C600A8DE38 /* GamePlayViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE21A58162D79C600A8DE38 /* GamePlayViewController~ipad.xib */; };
+		AAE4F7A5162FDCC50006B513 /* StartGameViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE4F7A4162FDCC50006B513 /* StartGameViewController~ipad.xib */; };
+		AAE4F7A8162FDD290006B513 /* GameResultViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE4F7A7162FDD290006B513 /* GameResultViewController~ipad.xib */; };
+		AAE4F7B9163040640006B513 /* p1~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE4F7B5163040640006B513 /* p1~ipad.png */; };
+		AAE4F7BA163040640006B513 /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE4F7B6163040640006B513 /* p1.png */; };
+		AAE4F7BB163040640006B513 /* p2~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE4F7B7163040640006B513 /* p2~ipad.png */; };
+		AAE4F7BC163040640006B513 /* p2.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE4F7B8163040640006B513 /* p2.png */; };
+		AAE4F7BF16304D010006B513 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE4F7BE16304D010006B513 /* GameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA19179916307C040078E471 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AA19179A16307C040078E471 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		AAE21A1B162D69E900A8DE38 /* tictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictactoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE21A1F162D69E900A8DE38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AAE21A21162D69E900A8DE38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +53,25 @@
 		AAE21A35162D69E900A8DE38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AAE21A37162D69E900A8DE38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AAE21A3A162D69E900A8DE38 /* tictactoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tictactoe.xcdatamodel; sourceTree = "<group>"; };
+		AAE21A43162D6AE100A8DE38 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AAE21A47162D6CA700A8DE38 /* StartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameViewController.h; sourceTree = "<group>"; };
+		AAE21A48162D6CA700A8DE38 /* StartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartGameViewController.m; sourceTree = "<group>"; };
+		AAE21A49162D6CA700A8DE38 /* StartGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartGameViewController.xib; sourceTree = "<group>"; };
+		AAE21A4E162D6EA100A8DE38 /* GamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayViewController.h; sourceTree = "<group>"; };
+		AAE21A4F162D6EA100A8DE38 /* GamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayViewController.m; sourceTree = "<group>"; };
+		AAE21A50162D6EA100A8DE38 /* GamePlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamePlayViewController.xib; sourceTree = "<group>"; };
+		AAE21A53162D6EAC00A8DE38 /* GameResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResultViewController.h; sourceTree = "<group>"; };
+		AAE21A54162D6EAC00A8DE38 /* GameResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResultViewController.m; sourceTree = "<group>"; };
+		AAE21A55162D6EAC00A8DE38 /* GameResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameResultViewController.xib; sourceTree = "<group>"; };
+		AAE21A58162D79C600A8DE38 /* GamePlayViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GamePlayViewController~ipad.xib"; sourceTree = "<group>"; };
+		AAE4F7A4162FDCC50006B513 /* StartGameViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "StartGameViewController~ipad.xib"; sourceTree = "<group>"; };
+		AAE4F7A7162FDD290006B513 /* GameResultViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GameResultViewController~ipad.xib"; sourceTree = "<group>"; };
+		AAE4F7B5163040640006B513 /* p1~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p1~ipad.png"; sourceTree = "<group>"; };
+		AAE4F7B6163040640006B513 /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1.png; sourceTree = "<group>"; };
+		AAE4F7B7163040640006B513 /* p2~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p2~ipad.png"; sourceTree = "<group>"; };
+		AAE4F7B8163040640006B513 /* p2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p2.png; sourceTree = "<group>"; };
+		AAE4F7BD16304D010006B513 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		AAE4F7BE16304D010006B513 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +120,9 @@
 		AAE21A27162D69E900A8DE38 /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
+				AAE4F7B1163014940006B513 /* images */,
+				AAE21A42162D6AC500A8DE38 /* Libs */,
+				AAE21A41162D6ABC00A8DE38 /* Controllers */,
 				AAE21A30162D69E900A8DE38 /* tictactoeAppDelegate.h */,
 				AAE21A31162D69E900A8DE38 /* tictactoeAppDelegate.m */,
 				AAE21A39162D69E900A8DE38 /* tictactoe.xcdatamodeld */,
@@ -104,6 +143,72 @@
 				AAE21A37162D69E900A8DE38 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAE21A41162D6ABC00A8DE38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A4D162D6E9200A8DE38 /* GameResult */,
+				AAE21A4C162D6E8600A8DE38 /* GamePlay */,
+				AAE21A46162D6C7900A8DE38 /* GameStart */,
+				AAE4F7BD16304D010006B513 /* GameController.h */,
+				AAE4F7BE16304D010006B513 /* GameController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AAE21A42162D6AC500A8DE38 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A43162D6AE100A8DE38 /* Constants.h */,
+				AA19179916307C040078E471 /* Player.h */,
+				AA19179A16307C040078E471 /* Player.m */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		AAE21A46162D6C7900A8DE38 /* GameStart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A47162D6CA700A8DE38 /* StartGameViewController.h */,
+				AAE21A48162D6CA700A8DE38 /* StartGameViewController.m */,
+				AAE21A49162D6CA700A8DE38 /* StartGameViewController.xib */,
+				AAE4F7A4162FDCC50006B513 /* StartGameViewController~ipad.xib */,
+			);
+			name = GameStart;
+			sourceTree = "<group>";
+		};
+		AAE21A4C162D6E8600A8DE38 /* GamePlay */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A4E162D6EA100A8DE38 /* GamePlayViewController.h */,
+				AAE21A4F162D6EA100A8DE38 /* GamePlayViewController.m */,
+				AAE21A50162D6EA100A8DE38 /* GamePlayViewController.xib */,
+				AAE21A58162D79C600A8DE38 /* GamePlayViewController~ipad.xib */,
+			);
+			name = GamePlay;
+			sourceTree = "<group>";
+		};
+		AAE21A4D162D6E9200A8DE38 /* GameResult */ = {
+			isa = PBXGroup;
+			children = (
+				AAE21A53162D6EAC00A8DE38 /* GameResultViewController.h */,
+				AAE21A54162D6EAC00A8DE38 /* GameResultViewController.m */,
+				AAE21A55162D6EAC00A8DE38 /* GameResultViewController.xib */,
+				AAE4F7A7162FDD290006B513 /* GameResultViewController~ipad.xib */,
+			);
+			name = GameResult;
+			sourceTree = "<group>";
+		};
+		AAE4F7B1163014940006B513 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4F7B5163040640006B513 /* p1~ipad.png */,
+				AAE4F7B6163040640006B513 /* p1.png */,
+				AAE4F7B7163040640006B513 /* p2~ipad.png */,
+				AAE4F7B8163040640006B513 /* p2.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +267,16 @@
 				AAE21A34162D69E900A8DE38 /* Default.png in Resources */,
 				AAE21A36162D69E900A8DE38 /* Default@2x.png in Resources */,
 				AAE21A38162D69E900A8DE38 /* Default-568h@2x.png in Resources */,
+				AAE21A4B162D6CA700A8DE38 /* StartGameViewController.xib in Resources */,
+				AAE21A52162D6EA100A8DE38 /* GamePlayViewController.xib in Resources */,
+				AAE21A57162D6EAC00A8DE38 /* GameResultViewController.xib in Resources */,
+				AAE21A59162D79C600A8DE38 /* GamePlayViewController~ipad.xib in Resources */,
+				AAE4F7A5162FDCC50006B513 /* StartGameViewController~ipad.xib in Resources */,
+				AAE4F7A8162FDD290006B513 /* GameResultViewController~ipad.xib in Resources */,
+				AAE4F7B9163040640006B513 /* p1~ipad.png in Resources */,
+				AAE4F7BA163040640006B513 /* p1.png in Resources */,
+				AAE4F7BB163040640006B513 /* p2~ipad.png in Resources */,
+				AAE4F7BC163040640006B513 /* p2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +290,11 @@
 				AAE21A2E162D69E900A8DE38 /* main.m in Sources */,
 				AAE21A32162D69E900A8DE38 /* tictactoeAppDelegate.m in Sources */,
 				AAE21A3B162D69E900A8DE38 /* tictactoe.xcdatamodeld in Sources */,
+				AAE21A4A162D6CA700A8DE38 /* StartGameViewController.m in Sources */,
+				AAE21A51162D6EA100A8DE38 /* GamePlayViewController.m in Sources */,
+				AAE21A56162D6EAC00A8DE38 /* GameResultViewController.m in Sources */,
+				AAE4F7BF16304D010006B513 /* GameController.m in Sources */,
+				AA19179B16307C040078E471 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +368,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tictactoe/tictactoe-Prefix.pch";
 				INFOPLIST_FILE = "tictactoe/tictactoe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -259,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tictactoe/tictactoe-Prefix.pch";
 				INFOPLIST_FILE = "tictactoe/tictactoe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,6 +405,7 @@
 				AAE21A40162D69E900A8DE38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

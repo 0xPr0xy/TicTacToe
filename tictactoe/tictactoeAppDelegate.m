@@ -7,6 +7,7 @@
 //
 
 #import "tictactoeAppDelegate.h"
+#import "StartGameViewController.h"
 
 @implementation tictactoeAppDelegate
 
@@ -29,6 +30,21 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    StartGameViewController * startGameViewController;
+    
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        startGameViewController = [[StartGameViewController alloc] initWithNibName:@"StartGameViewController" bundle:nil];
+    }
+    else {
+        startGameViewController = [[StartGameViewController alloc] initWithNibName:@"StartGameViewController~ipad" bundle:nil];
+    }
+    UINavigationController * mainNavigationController = [[UINavigationController alloc] initWithRootViewController:startGameViewController];
+    [startGameViewController release];
+    
+    self.window.rootViewController = mainNavigationController;
+    [mainNavigationController release];
+    
     return YES;
 }
 
@@ -67,7 +83,7 @@
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
              // Replace this implementation with code to handle the error appropriately.
-             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             abort();
         } 
