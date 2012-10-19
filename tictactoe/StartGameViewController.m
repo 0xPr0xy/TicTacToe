@@ -57,8 +57,8 @@
     [super dealloc];
 }
 
-#pragma mark - IBAction
-- (IBAction)playButtonClicked:(UIButton *)sender {
+#pragma mark - startgame logic
+- (void)setPlayerData{
     if(![self.player1Name.text isEqualToString:@""] && ![self.player1Name.text isEqualToString:@""]){
         [[GameController shared] addPlayer:1 withName:self.player1Name.text withGamesWon:0];
         [[GameController shared] addPlayer:2 withName:self.player2Name.text withGamesWon:0];
@@ -66,8 +66,20 @@
         [[GameController shared] addPlayer:1 withName:@"Player1" withGamesWon:0];
         [[GameController shared] addPlayer:2 withName:@"Player2" withGamesWon:0];
     }
+}
+- (void)goToGamePlayView{
     GamePlayViewController * gamePlayViewController = [[GamePlayViewController alloc] init];
     [self.navigationController pushViewController:gamePlayViewController animated:YES];
     [gamePlayViewController release];
+}
+
+#pragma mark - IBAction
+- (IBAction)playButtonClicked:(UIButton *)sender {
+    [self setPlayerData];
+    [self goToGamePlayView];
+}
+- (IBAction)swipeMade:(id *)sender {
+    [self setPlayerData];
+    [self goToGamePlayView];
 }
 @end
